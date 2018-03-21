@@ -1,0 +1,494 @@
+@charset "utf-8";
+
+
+
+
+//-----Color class style
+
+.primary-color {
+	color:$primary-color;
+}
+
+
+.brand-primary {
+	color:$brand-primary;
+}
+
+.brand-purple {
+	color:$brand-purple;
+}
+
+.brand-success {
+	color:$brand-success;
+}
+
+.brand-info {
+	color:$brand-info;
+}
+
+.brand-warning {
+	color:$brand-warning;
+}
+
+.brand-danger {
+	color:$brand-danger;
+}
+
+.gray-darker {
+	color:$gray-darker;
+}
+
+.gray-dark {
+	color:$gray-dark;
+}
+
+
+.gray {
+	color:$gray;
+}
+
+
+.gray-light {
+	color:$gray-light;
+}
+
+
+.gray-lighter {
+	color:$gray-lighter;
+}
+
+.link-color {
+	color:$link-color;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+
+
+
+h1 {
+	font-family:$h1-font-family;
+	font-size:$h1-font-size;
+	line-height:$h1-line-height;
+	font-weight:$h1-font-weight;
+	color:$h1-font-color;
+}
+
+h2 {
+	font-family:$h2-font-family;
+	font-size:$h2-font-size;
+	line-height:$h2-line-height;
+	color:$h2-font-color;
+}
+
+h3 {
+	font-family:$h3-font-family;
+	font-size:$h3-font-size;
+	line-height:$h3-line-height;
+	color:$h3-font-color;
+}
+
+h4 {
+	font-family:$h4-font-family;
+	font-size:$h4-font-size;
+	line-height:$h4-line-height;
+	font-weight:$h4-font-weight;
+	color:$h4-font-color;
+}
+
+h5 {
+	font-family:$h5-font-family;
+	font-size:$h5-font-size;
+	line-height:$h5-line-height;
+	font-weight:$h5-font-weight;
+	color:$h5-font-color;
+}
+
+h6 {
+	font-family:$h6-font-family;
+	font-size:$h6-font-size;
+	line-height:$h6-line-height;
+	font-weight:$h6-font-weight;
+	color:$h6-font-color;
+}
+
+
+.jumbo1 {
+	font-family:$jumbo1-font-family;
+	font-size:$jumbo1-font-size;
+	line-height:$jumbo1-line-height;
+}
+
+.jumbo2 {
+	font-family:$jumbo2-font-family;
+	font-size:$jumbo2-font-size;
+	line-height:$jumbo2-line-height;
+}
+
+
+p {
+	font-family:$p-font-family;
+	font-size:$p-font-size;
+	line-height:$p-line-height;
+	font-weight:$p-font-weight;
+}
+
+a {
+	text-decoration:$a-text-decuration;
+	color:$a-color;
+}
+
+.underline {
+	text-decoration:underline !important;
+}
+
+.hover-color:hover {
+	color:$gray-dark;
+}
+
+a:hover {
+	color:$a-hover-color;
+}
+
+a:focus {
+	outline:none !important;
+}
+
+a.link-color:hover {
+	color:$link-color !important;
+}
+
+.p-gray-darker a:hover {
+	color:$gray-darker;
+}
+
+.p-gray a:hover {
+	color:$gray;
+}
+
+small {
+	font-family:$small-font-family;
+	font-size:$small-font-size;
+	line-height:$small-line-height;
+	font-weight:$small-font-weight;
+}
+
+.error {
+	font-family:$small-font-family;
+	font-size:$small-font-size;
+	line-height:$small-line-height;
+	font-weight:$error-font-weight;
+	color:$brand-danger;
+}
+
+.alert {
+	font-family:$alert-font-family;
+	font-size:$alert-font-size;
+	line-height:$alert-line-height;
+	font-weight:$alert-font-weight;	
+}
+
+
+.tooltipster-default {		
+	border:none !important;
+	background:$tooltip-bg-color !important;	
+	border-radius:$tootip-border-radius !important;
+}
+
+
+.tooltipster-default .tooltipster-content {
+	font-family:$tooltip-font-family;
+	font-size:$tooltip-font-size !important;
+	line-height:$tooltip-line-height !important;
+	font-weight:$tooltip-font-weight !important;
+	padding:$tooltip-padding !important;
+	text-align:$tooltip-text-align;		
+	width:$tooltip-width;
+	color:$tooltip-color;
+}
+
+
+.tooltip-bottom {
+	font-family:$tooltip-font-family;
+	font-size:$tooltip-font-size;
+	line-height:$tooltip-line-height;
+	font-weight:$tooltip-font-weight;	
+	background:$tooltip-bg-color;
+	padding:$tooltip-padding;
+	color:$tooltip-color;
+	text-align:$tooltip-text-align;
+	border-radius:$tootip-border-radius;	
+	width:$tooltip-width;
+	margin-top:$tooltip-margin;
+	display:$tooltip-display;
+}
+
+.tooltip-bottom::before {
+	 color: $gray-darker;
+	 content: "\f0de";
+     font-family: FontAwesome;
+	 font-size:19px;
+	 position:absolute;
+	 margin-top: -13px;
+   	 width: 162px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	display:none;
+}
+
+
+
+.green-alert {
+	color:$brand-success;
+}
+
+.orange-alert {
+	color:$brand-warning;
+}
+
+.p-gray-darker {
+	color:$gray-darker;
+}
+
+.p-gray {
+	color:$gray;
+}
+
+
+.btn-cancel {
+	font-family:$cancel-font-family;
+	font-size:$cancel-font-size;
+	line-height:$cancel-line-height;
+	font-weight:$cancel-font-weight;
+	color:$link-color;
+	text-decoration:$cancel-text-decuration;
+}
+
+.btn-cancel:hover {
+	color:$link-color;
+}
+
+
+.btn {
+    border-radius:$btn-border-radius;
+    font-family:$btn-font-family;
+	text-transform:$btn-text-transform;
+	padding:0;
+}
+
+.btn-brand-primary {
+    background:$brand-primary;
+	color:$primary-color;
+}
+
+.btn-brand-primary:hover {
+    color:$btn-hover-color;
+	background:$btn-hover-bg;
+}
+
+.btn-gray-dark {
+    background:$gray-dark;
+	color:$gray-darker;
+}
+
+.btn-gray-dark:hover {
+    color:$gray-darker;
+	background:$btn-gary-hover-bg;
+}
+
+.btn-border-style {
+	box-shadow: 0 0 0 2px $primary-color inset;
+	background:none;
+	color: $primary-color;
+}
+
+.btn-border-style:hover {
+	background:$primary-color;
+	color: $brand-primary;
+}
+
+.btn-medium {
+    font-size:$btn-md-font-size;
+    line-height:$btn-md-line-height;
+    padding:$btn-md-padding;
+}
+
+.btn-large {
+    font-size:$btn-lg-font-size;
+    line-height:$btn-lg-line-height;
+    padding:$btn-lg-padding;
+}
+
+.btn-icon {
+	padding-left:$btn-icon-padd-left;
+	padding-right:$btn-icon-padd-right;
+}
+
+.btn-icon::after {
+     content: "\f061";
+     font-family: FontAwesome;
+	 font-size:14px;
+	 margin-left:28px;
+	 position:absolute;
+}
+
+.btn-disabled {
+    opacity:$btn-disabled-opacity;
+}
+
+
+.btn-play {
+    background: rgba(42, 154, 241, 0.7) none repeat scroll 0 0;
+	height: 70px;
+    width: 70px;
+	color: $primary-color;
+    display: block;
+	margin: 0 auto;
+    padding: 19px 14px 18px 22px;
+    border-radius: 50%;
+}
+
+.btn-play img {
+ 	max-width:27px;
+}
+   
+.btn-play:hover {
+	background:rgba(42, 154, 241, 1) none repeat scroll 0 0;
+	/* mozila */
+	-moz-transition: background 0.2s ease-in;
+	/* WebKit */
+	-webkit-transition: background 0.2s ease-in;
+	/* Standard */
+	transition:background 0.2s ease-in;
+}
+
+
+
+.toolbar-link {
+	font-size:$toolbar-link-font-size;
+	line-height:$toolbar-link-line-height;
+	font-family:$toolbar-link-font;
+	font-weight:$toolbar-link-weight;
+	color:$gray;
+}
+
+
+.card {
+	border-radius:$card-border-radius;
+	padding:$card-padding;
+}
+
+.card-default {
+	border-width:$card-dflt-border-width;
+	border-color:$card-dflt-border-color;
+	border-style:$card-dflt-border-style;
+}
+
+.card-selected {
+	border-width:$card-sltd-border-width;
+	border-color:$card-sltd-border-color;
+	border-style:$card-sltd-border-style;
+}
+
+.card-hover:hover {
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-divider {
+	width:$card-divider-width;
+	height:$card-divider-height;
+	background:$card-divider-bg;
+	margin:$card-divider-margin;
+	display:$card-divider-display;
+	float:$card-divider-float;
+}
+
+input.form-control {
+	border-radius:$input-border-radius;
+	border-width:$input-border-width;
+	border-color:$gray-light;
+	padding:$input-padding;
+	font-size:$input-font-size;
+	font-family:$input-font-family;
+	font-weight:$input-font-weight;
+	color:$input-font-color;
+	height:$input-height;
+	margin-bottom: 10px;
+}
+		
+.form-content {
+	border: 1px solid $gray-light;
+	border-radius: 6px;
+	display: block;
+	float: left;
+	padding: 30px;
+	max-width: 760px;
+	width:100%;
+}
+		
+
+.form-group button {
+	margin-left:20px;
+}
+
+
+.modal-content {
+	box-shadow: 0 2px 6px rgba(0, 1, 1, 0.3);
+	border:medium none;
+}
+
+.modal-header {
+	border-bottom:none;
+	padding-top:42px;
+	padding-left:24px;
+}
+	
+.modal-header .close {
+	position: absolute;
+	right: 14px;
+	top: 9px;
+}
+
+.modal-body {
+	padding-left:24px;
+	padding-right:24px;
+}
+
+.modal-footer {
+	border-top:none;
+	padding-top:24px;
+	padding-right:15px;
+	padding-bottom:32px;	
+}
+
+.modal-footer button {
+	margin-left:20px;
+	padding:10px 46px;
+}
+
+
+
+//------block style
+
+.block {
+	width:$block-width;
+	float:$block-float;
+}
+
+
+//------Custom-container style
+
+.container {
+	padding-left: 0;
+    padding-right: 0;
+}
+
+
+//------text-decoration style
+
+.line-straight {
+	text-decoration: $line-straight;
+}

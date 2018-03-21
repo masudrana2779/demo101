@@ -1,0 +1,254 @@
+
+//----bg color
+$primary-site-bg-color:      #fff;
+
+
+//----Font
+$font:                  	'ProximaNova-Regular';
+
+
+//-----Color
+$primary-color:         	#ffffff;
+$link-color:				#935eff;
+$brand-primary:				#935eff;
+$brand-purple:				#935eff;
+$brand-success:				#3cb878;
+$brand-info:				#2acef1;
+$brand-warning:				#ff9f19;
+$brand-danger:				#f35958;
+$gray-darker:				#333333;
+$gray-dark:					#666666;
+$gray:						#959595;
+$gray-light:				#d6d6d6;
+$gray-lighter:				#f2f2f2;
+
+
+
+//-----Typography
+
+//----h1 style----	
+		
+$h1-font-size:				40px;
+$h1-line-height:			60px;
+$h1-font-weight:			normal;
+$h1-font-color:				#333333;
+$h1-font-family:			'ProximaNova-Light';
+
+
+//----h2 style----	
+		
+$h2-font-size:				40px;
+$h2-line-height:			40px;
+$h2-font-color:				#333333;
+$h2-font-family:			'bebas_neuebold';
+
+
+//----h3 style----	
+		
+$h3-font-size:				24px;
+$h3-line-height:			24px;
+$h3-font-color:				#333333;
+$h3-font-family:			'bebas_neuebold';
+
+
+//----h4 style----	
+		
+$h4-font-size:				24px;
+$h4-line-height:			36px;
+$h4-font-weight:			normal;
+$h4-font-color:				#333333;
+$h4-font-family:			'ProximaNova-Light';
+
+
+//----h5 style----	
+		
+$h5-font-size:				20px;
+$h5-line-height:			30px;
+$h5-font-weight:			normal;
+$h5-font-color:				#333333;
+$h5-font-family:			'ProximaNova-Light';
+
+
+//----h6 style----	
+		
+$h6-font-size:				15px;
+$h6-line-height:			30px;
+$h6-font-weight:			normal;
+$h6-font-color:				#333333;
+$h6-font-family:			'ProximaNova-Semibold';
+
+
+//----Jumbo1 style----	
+		
+$jumbo1-font-size:			60px;
+$jumbo1-line-height:		60px;
+$jumbo1-font-family:		'bebas_neuebold';
+
+
+//----Jumbo2 style----
+			
+$jumbo2-font-size:			100px;
+$jumbo2-line-height:		90px;
+$jumbo2-font-family:		'bebas_neuebold';
+
+
+//----p style----	
+		
+$p-font-size:				15px;
+$p-line-height:				25px;
+$p-font-weight:				normal;
+$p-font-family:				'ProximaNova-Light';
+
+
+//----a style----	
+		
+$a-text-decuration:			none;
+$a-color:					inherit;
+
+//----a-hover style----	
+		
+$a-hover-color:				inherit;
+
+
+
+//----cancel btn style----
+
+$cancel-font-size:			15px;
+$cancel-line-height:		20px;
+$cancel-font-weight:		normal;
+$cancel-font-family:		'ProximaNova-Light';
+$cancel-text-decuration:	none;
+
+
+//----small style----
+			
+$small-font-size:			12px;
+$small-line-height:			18px;
+$small-font-weight:			normal;
+$small-font-family:			'ProximaNova-Light';
+
+
+
+//----error style----
+			
+$error-font-weight:			400;
+
+
+//----alert style----	
+		
+$alert-font-size:			15px;
+$alert-line-height:			25px;
+$alert-font-weight:			normal;
+$alert-font-family:			'ProximaNova-Semibold';
+
+
+//----tooltip style----	
+		
+$tooltip-font-size:			11px;
+$tooltip-line-height:		14px;
+$tooltip-font-weight:		normal;
+$tooltip-font-family:		'ProximaNova-Regular' !important;
+$tooltip-color:				#ffffff;
+$tooltip-bg-color:			#333333;
+$tooltip-text-align:		center;
+$tooltip-padding:			8px 12px 10px 12px;
+$tootip-border-radius:		3px;
+$tooltip-width:				190px;
+$tooltip-margin:			20px;
+$tooltip-display:			block;
+
+
+//------button style
+
+$btn-border-radius:			40px;
+$btn-font-family:			'bebas_neuebold';
+$btn-text-transform:		uppercase;
+
+
+//------button medium style
+
+$btn-md-font-size:			18px;
+$btn-md-line-height:		18px;
+$btn-md-padding:			10px 30px;
+
+
+//------button large style
+
+$btn-lg-font-size:			20px;
+$btn-lg-line-height:		20px;
+$btn-lg-padding:			16px 40px;
+
+
+//------button icon style
+
+$btn-icon-padd-left:		52px;
+$btn-icon-padd-right:		60px;
+
+
+//------btn-disabled style
+
+$btn-disabled-opacity:		0.3;
+
+
+//------button-hover style
+
+$btn-hover-color:			#ffffff;
+$btn-hover-bg:				#7f4ee2;
+$btn-gary-hover-bg:			#535353;
+
+
+//------toolbar-link style
+
+$toolbar-link-font-size:	12px;
+$toolbar-link-line-height:	14px;
+$toolbar-link-font:			'ProximaNova-Regular';
+$toolbar-link-weight:		normal;
+
+
+//------card style
+
+$card-padding:				20px;
+$card-border-radius:		3px;
+$card-dflt-border-width:	1px;
+$card-dflt-border-color:	#d6d6d6;
+$card-dflt-border-style:	solid;
+$card-sltd-border-width:	2px;
+$card-sltd-border-color:	#935eff;
+$card-sltd-border-style:	solid;
+
+
+//------card-divider style
+
+$card-divider-width:		100%;
+$card-divider-height:		1px;
+$card-divider-bg:			#d6d6d6;
+$card-divider-margin:		15px 0;
+$card-divider-display:		block;
+$card-divider-float:		left;
+
+
+
+
+//---- form input style
+
+$input-border-radius:		6px;
+$input-border-width:		1px;
+$input-border-color:		#77baed;
+$input-padding:				10px 20px;
+$input-font-size:			18px;
+$input-font-color:			#333333;
+$input-font-weight:			normal;
+$input-font-family:			'ProximaNova-Regular';
+$input-height:				50px;
+
+
+
+//------block style
+
+$block-width:				100%;
+$block-float:				left;
+
+
+//------text-decoration style
+
+$line-straight:				line-through;

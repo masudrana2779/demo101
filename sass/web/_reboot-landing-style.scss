@@ -1,0 +1,1082 @@
+.reboot-landing-banner {
+    padding: 35px 0 115px;
+    
+    .reboot-banner-text {
+        max-width: 770px;
+        margin: 95px auto 0;
+        
+        h3 {
+            margin: 0 0 25px;
+        }
+        
+        h2 {
+            margin: 0 0 60px;
+        }
+        
+    }
+    
+    
+    .reboot-banner-bottom {
+        .reboot-banner-video {
+            position: relative;
+            margin-bottom: 35px;
+            
+            .play-icon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: table;
+                text-align: center;
+                z-index: 10;
+                
+                .play-meddle {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    a {
+                        img {
+                            display: inline-block;
+                            max-width: 77px;
+                        }
+                    }
+                    a:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        
+        .reboot-banner-video:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: $gray-darker;
+            opacity: 0.5;
+        }
+        
+        .reboot-order-wrap {
+            background: $primary-color;
+            border-radius: 10px;
+            padding: 28px 22px 25px;
+            -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow:    0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            box-shadow:         0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            
+            
+            h3 {
+                margin: 0 0 10px;
+            }
+            
+            h2 {
+                margin: 0 0 10px;
+            }
+            
+            h6 {
+                line-height: 24px;
+            }
+            
+            .second {
+                font-size: 40px;
+            }
+            
+            form {
+                
+                h3 {
+                    margin: 0 0 15px;
+                }
+                
+                h6 {
+                    margin: 0;
+                }
+                
+                .btn {
+                    width: 100%;
+                    margin: 2px 0 0;
+                    position: relative;
+                    background: #00bff3;
+                }
+                
+                .btn:hover {
+                    background: #01aedd;
+                }
+                
+                .btn:after {
+                    content: "\f178";
+                    right: 23px;
+                }
+            }
+        }
+        
+    }
+    
+}
+/*--End of reboot-landing-banner--*/
+
+
+
+.reboot-catalog {
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 85px;
+}
+/*--End of reboot-catalog--*/
+
+
+
+.home-questions {
+    border-top: 1px solid #f2f2f2;
+}
+/*--End of home-questions--*/
+
+
+
+.reboot-main-menu-sticky {
+    background: #333;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+/*--End of reboot-main-menu-sticky --*/
+
+
+.reboot-teame-warp {
+    
+    .reboot-team-member {
+        
+        .reboot-team-member-img {
+            max-width: 80px;
+            width: 100%;
+            height: 80px;
+            margin: 0 auto 25px;
+            
+            img {
+                display: inline-block;
+            }
+        }
+        
+        .reboot-member-details {
+            margin: 0 auto 35px;
+            max-width: 420px;
+            width: 100%;
+        }
+        
+        .reboot-team-name {
+            margin-bottom: 6px;
+        }
+        
+        .reboot-team-from {
+            margin-bottom: 50px;
+        }
+        
+    }
+    
+    .reboot-statement {
+        padding: 0 15px;
+        margin-bottom: 50px;
+    }
+    
+    .reboot-statement.bottom-more-margin  {
+        margin-bottom: 117px;
+    }
+    
+    hr.hr {
+        border-top: 1px solid #1c252e;
+        opacity: 0.2;
+        max-width: 800px;
+        margin: 0 auto 65px;
+    }
+    
+}
+/*--End of reboot-teame-warp --*/
+
+
+.reboot-reset-wrap {
+    
+    background: url(../../images/img-runner-male.png) no-repeat scroll top left / 800px auto;
+    padding-bottom: 175px;
+    
+    .reboot-reset-img.mbShow {
+        display: none;
+    }
+    
+    .reboot-reset-text {
+        
+        h2 {
+            margin-bottom: 30px;
+            margin-top: 60px;
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        h5 {
+            
+        }
+    }
+    
+}
+/*--End of reboot-reset-wrap --*/
+
+
+.reboot-60hour-wrap {
+	background: url(../../images/60hour-keto-bg.png) no-repeat scroll top left / 100% 100%;
+	padding: 220px 0 350px;
+	margin-top: -100px;
+    
+    
+    .reboot-60hour-left {
+        margin-top: 168px;
+        .reboot-Ketophagy {
+            h6 {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            h6.Ketophagy {
+                position: relative;
+                font-weight: 900;
+            }
+            h6.Ketophagy:before {
+                position: absolute;
+                content: "";
+                top: -15px;
+                left: 0;
+                background: $brand-purple;
+                width: 34px;
+                height: 2px;
+            }
+            p {
+                margin-top: 10px;
+            }
+        }
+        
+        .natural {
+            max-width: 230px;
+            width: 100%;
+        }
+        
+    }
+    
+    
+    .reboot-60hour-right {
+        
+        .reboot-60hour-icon-item {
+            .reboot-60hour-icon {
+                max-width: 66px;
+                width: 100%;
+                margin: 0 auto 18px;
+                
+                img {
+                    display: inline-block;
+                }
+            }
+            
+            h2 {
+                margin-bottom: 55px;
+            }
+        }
+        
+    }
+    
+    
+}
+/*--End of reboot-60hour-wrap --*/
+
+
+
+
+.reboot-community-support-wrap {
+    margin-top: -98px;
+    
+    .reboot-community-left {
+        
+        .reboot-community-video {
+            position: relative;
+            margin-bottom: 35px;
+            
+            .play-icon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: table;
+                text-align: center;
+                z-index: 10;
+                
+                .play-meddle {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    a {
+                        img {
+                            display: inline-block;
+                            max-width: 77px;
+                        }
+                    }
+                    a:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        
+        .reboot-community-video:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: $gray-darker;
+            opacity: 0.5;
+        }
+        
+        .statement {
+            padding: 0 15px;
+        }
+        
+    }
+    
+    .reboot-community-right {
+        padding-bottom: 100px; 
+        .reboot-community-support {
+            padding-top: 17px;
+            
+            .community-title {
+                line-height: 48px;
+                margin-bottom: 35px;
+            }
+            
+            .community-details {
+                max-width: 320px;
+                width: 100%;
+                margin-bottom: 32px;
+            }
+            
+            .facebook {
+                
+                
+                
+                .facebook-icon {
+                    float: left;
+                    width: 15%;
+                    
+                    i {
+                        color: $primary-color;
+                        font-size: 30px;
+                        width: 53px;
+                        height: 53px;
+                        line-height: 53px;
+                        text-align: center;
+                        background: #3b5998;
+                        border-radius: 50%;
+                    }
+                }
+                
+                .facebook-text {
+                    
+                    float: left;
+                    width: 85%;
+                    max-width: 270px;
+                    
+                }
+            }
+            
+        }
+    }
+    
+}
+/*--End of reboot-community-support-wrap --*/
+
+
+.reboot-product-box-wrap {
+    background: url(../../images/dna-bg.png) no-repeat scroll top left / 100% auto;
+    margin-top: -190px;
+    padding-top: 230px;
+    
+    .product-box-content {
+        
+        .product-box {
+            margin-bottom: 42px;
+            img {
+                display: inline-block;
+                max-width: 1005px;
+                width: 100%;
+            }
+        }
+        
+        h2 {
+            margin-bottom: 30px;
+        }
+        
+        h5 {
+            max-width: 450px;
+            width: 100%;
+            margin: 0 auto 73px;
+        }
+        
+    }
+}
+/*--End of reboot-product-box-wrap --*/
+
+.reboot-product-iteam-wrap {
+
+    .slick-track-first {
+        transform: translate3d(0px, 0px, 0px) !important;
+    }
+    
+
+    
+    
+    .reboot-product-iteam {
+        article {
+            padding: 0;
+
+            background: rgb(255, 255, 255);
+            background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(253, 253, 253, 1) 38%, rgba(237, 237, 237, 1) 100%);
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(253, 253, 253, 1) 38%, rgba(237, 237, 237, 1) 100%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(253, 253, 253, 1) 38%, rgba(237, 237, 237, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+
+            .reboot-iteam-slider-nav {
+                margin-bottom: 0 !important;
+
+                .product-single-iteam {
+                    margin: 0;
+                    padding:0px 20px 20px;
+                    min-height: 235px;
+                    cursor: pointer;
+
+                    .product-img {
+                        margin-bottom: 17px;
+                        img {
+                            display: inline-block;
+                            max-width: 75px;
+                            width: 100%;
+                        }
+                    }
+                    .product-name {
+                        font-size: 24px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    .product-count {
+                        margin-bottom: 5px;
+                    }
+                    .pro-details-link {
+                        a {
+                        }
+                    }
+                }
+            }
+        }
+
+        .product-single-iteam:focus {
+            outline: none;
+        }
+
+        /*.product-single-iteam.slick-slide {
+            opacity: 0.5;
+        }*/
+
+        .product-single-iteam.slick-current {
+            background: #fff;
+            opacity: 1;
+
+            .brand-purple {
+                color: $gray-darker;
+            }
+
+            .pro-details-link {
+                display: none;
+            }
+        }
+    }
+    
+    
+    .reboot-product-iteam-details {
+        .product-details-info-content {
+            margin-top: 85px;
+            .product-details-info {
+                max-width: 400px;
+                h5 {
+                    margin-bottom: 28px;
+                }
+                .product-info-img {
+                    margin-bottom: 42px;
+                    img {
+                        display: inline;
+                        max-width: 95px;
+                        width: 100%;
+                        margin-right: 15px;
+                    }
+                    img:last-child {
+                        margin-right: 0;
+                    }
+                }
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+            .reboot-suppliment-fat {
+                .suppliment-fat-top {
+                    .suppliment-text {
+                        .suppliment-fat-title {
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                    }
+                    .reboot-keto-flavor {
+                        max-width: 265px;
+                        width: 100%;
+                        height: 30px;
+                        background: #f7f7f7;
+                        border: 1px solid #cfcfcf;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        .flavor-select {
+                            font-size: 14px;
+                            padding: 0 7px;
+                            width: 285px;
+                            height: 100%;
+                            border: none;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none;
+                            background: url(../../images/select-bg.png) no-repeat scroll right 30px center / 9px auto;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .suppliment-fat-table-content {
+                    .serving-size {
+                        margin-bottom: 7px;
+                        font-family: "ProximaNova-Regular";
+                    }
+                    .suppliment-fat-details {
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                    .margin-bottom {
+                        margin-bottom: 20px;
+                    }
+                    .table.suppliment-fat-table {
+                        margin-bottom: 0;
+                        border-bottom: 8px solid $gray-darker;
+                        tr {
+                            th {
+                                padding: 3px 0;
+                                font-size: 12px;
+                                font-family: "ProximaNova-Regular";
+                            }
+                            th.border-large,
+                            td.border-large {
+                                border-top: 14px solid $gray-darker;
+                            }
+                            td {
+                                border-top: 1px solid $gray-darker;
+                                padding: 4px 0;
+                                font-family: "ProximaNova-Regular";
+                                .table {
+                                    margin-bottom: 0;
+                                    border: none;
+                                    tr {
+                                        td {
+                                            padding-left: 19px;
+                                            .table {
+                                                border: none;
+                                                tr {
+                                                    td {
+                                                        border: none;
+                                                        padding: 0 0 0 20px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            td.border-medium {
+                                border-top: 8px solid $gray-darker;
+                            }
+                            td.border-none {
+                                border-top: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+/*--End of reboot-product-iteam-wrap --*/
+
+
+.reboot-arebooter-life-wrap {
+    
+    background: transparent url(../../images/aDay-in-bg.png) no-repeat scroll top left / 100% 100% ;
+    padding: 180px 0 270px;
+    position: relative;
+    margin-bottom: -270px;
+    
+    .reboot-arebooter-left {
+        
+        .reboot-arebooter-video {
+            
+            
+            position: relative;
+            margin-bottom: 35px;
+            
+            .play-icon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: table;
+                text-align: center;
+                z-index: 10;
+                
+                .play-meddle {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    a {
+                        img {
+                            display: inline-block;
+                            max-width: 77px;
+                        }
+                    }
+                    a:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        
+        .reboot-arebooter-video:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: $gray-darker;
+            opacity: 0.5;
+        }
+        
+        
+    }
+    
+    .reboot-arebooter-right {
+        
+        
+        
+        .reboot-arebooter-life {
+            
+            
+            h2 {
+                margin-bottom: 40px;
+            }
+            
+            h5 {
+                max-width: 410px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            
+            .rebooter {
+                
+                .rebooter-img {
+                    
+                    float: left;
+                    margin-right: 20px;
+                    
+                    
+                    img {
+                        max-width: 80px;
+                        width: 100%;
+                        display: inline-block;
+                        height: 80px;
+                    }
+                }
+                .rebooter-text {
+                    float: left;
+                    margin-top: 13px;
+                    
+                    .rebooter-name {
+                        margin-bottom: 5px;
+                    }
+                    .rebooter-from {
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+/*--End of reboot-arebooter-life-wrap --*/
+
+
+
+.will-you-reboot-content-wrap {
+    padding-bottom: 120px;
+    background: $gray-lighter;
+    padding-top: 270px;
+    
+    .will-you-reboot-content {
+        .will-you-reboot-left {
+            margin-top: 105px;
+            .will-you-reboot {
+                h1 {
+                    margin-bottom: 40px;
+                }
+                h2 {}
+                h3 {}
+            }
+        }
+        .will-you-reboot-right {
+            .reboot-order-wrap {
+                background: $primary-color;
+                border-radius: 10px;
+                padding: 28px 22px 25px;
+                -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+                box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+                h3 {
+                    margin: 0 0 10px;
+                }
+                h2 {
+                    margin: 0 0 10px;
+                }
+                
+                
+                h6 {
+                    line-height: 24px;
+                }
+                
+                .second {
+                    font-size: 40px;
+                }
+                form {
+                    h3 {
+                        margin: 0 0 15px;
+                    }
+                    h6 {
+                        margin: 0;
+                    }
+                    
+                    .btn {
+                        width: 100%;
+                        margin: 2px 0 0;
+                        position: relative;
+                        background: #00bff3;
+                    }
+                    .btn:hover {
+                        background: #01aedd;
+                    }
+                    .btn:after {
+                        content: "\f178";
+                        right: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*--End of will-you-reboot-content-wrap --*/
+
+
+.reboot-frequently-askd {
+    
+    background: $gray-lighter;
+    padding-bottom: 85px;
+    
+    .frequently-askd-title {
+        margin-bottom: 45px;
+    }
+    
+    .panel-default {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 28px;
+        background: transparent;
+        
+        .panel-heading {
+            
+            background: none;
+            border: none;
+            margin-bottom: 8px;
+            padding: 0;
+            
+            .panel-title {
+                padding-right: 30px;
+                color: $brand-purple;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        .panel-collapse {
+            padding: 0;
+            display: inherit;
+            visibility: hidden;
+            p {
+                padding-right: 40px;
+            }
+        }
+        
+        .panel-collapse.in {
+            display: inherit;
+            visibility: visible;
+        }
+        
+    }
+    
+}
+/*--End of reboot-frequently-askd --*/
+
+.reboot-frequently-askd.reboot-questions-answered {
+    background: $primary-color;
+    padding-bottom: 68px;
+}
+/*--End of reboot-frequently-askd reboot-questions-answered --*/
+
+
+.reboot-disclaimer-wrap {
+    padding: 57px 0;
+    
+    .reboot-disclaimer-content {
+        
+        .disclaimer-title {
+            margin: 0 auto 25px;
+            max-width: 602px;
+            width: 100%;
+            line-height: 18px;
+            font-weight: 700;
+            border: 3px solid $gray-darker;
+            padding: 4px 0;
+        }
+        
+        .disclaimer-details {
+            font-size: 12px;
+            line-height: 18px;
+            max-width: 770px;
+            width: 100%;
+            margin: 0 auto 10px;
+            
+        }
+    }
+    
+}
+/*--End of reboot-disclaimer-wrap --*/
+
+.reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap {
+    padding-bottom: 95px;
+}
+/*--End of reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap --*/
+
+
+
+.reboot-choose-kit-wrap {
+    background: url(../../images/reboot-product-banner-bg.png) no-repeat scroll top left / 100% auto;
+    padding: 97px 0 110px;
+    .reboot-choose-content {
+        margin-bottom: 36px;
+        
+        .step-2 {
+            margin-bottom: 25px;
+        }
+        .choose-kit-title {
+            margin-bottom: 60px;
+        }
+        .choose-kit-item {
+            background: $primary-color;
+            padding: 35px 25px 30px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            
+            -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+            
+            h2 {
+                margin-bottom: 20px;
+                line-height: 37px;
+            }
+            
+            .most-popular {
+                margin-bottom: 5px;
+                margin-top: -15px;
+            }
+            
+            .choose-kit-img {
+                margin-bottom: 37px;
+                img {
+                    display: inline-block;
+                    max-width: 217px;
+                    width: 100%;
+                }
+            }
+            .keto-reboot-size {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            .keto-reboot-tax {
+                line-height: 16px;
+                margin-bottom: 33px;
+            }
+            .btn {
+                width: 100%;
+                margin: 0;
+                position: relative;
+                background: #00bff3;
+            }
+            .btn:hover {
+                background: #01aedd;
+            }
+        }
+        .choose-kit-item.border-purple {
+            border: 3px solid $brand-purple;
+        }
+    }
+    .time-remaining {
+        max-width: 300px;
+        margin: 0 auto 10px;
+    }
+    .order-timing {
+        span {
+            font-size: 40px;
+        }
+    }
+}
+/*--End of reboot-choose-kit-wrap --*/
+
+
+
+.reboot-referring-member {
+
+    .referring-body {
+        padding: 45px 15px 0;
+        
+        .reboot-referring-profile-img {
+            margin-bottom: 13px;
+            
+            img {
+                max-width: 48px;
+                width: 100%;
+                height: 48px;
+                display: inline-block;
+            }
+            
+        }
+        
+        .referral-name {
+            margin-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            
+            .btn {
+                font-size: 24px;
+                width: 100%;
+                background: #935eff;
+                margin-bottom: 8px;
+            }
+            
+            .btn:hover {
+                background: #8250e6;
+            }
+            
+            .btn-close {
+                background: $gray-dark;
+                color: $gray-darker;
+            }
+            
+            .btn-close:hover {
+                background: #5a5a5a;;
+            }
+            
+        }
+        
+        .referral-link {
+            margin-bottom: 35px;
+            
+            
+            span {
+                display: block;
+                
+                a:focus {
+                    color: $primary-color; 
+                }
+            }
+        }
+        
+        .reset-referrer {
+            
+            margin-top: 15px;
+            margin-bottom: 45px;
+            
+            
+            a:hover, 
+            a:focus {
+                color: $primary-color;
+            }
+        }
+        
+    }
+    
+}
+/*--End of reboot-referring-member --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reboot-product-body-banner {
+    background: #fff url("../../images/reboot-landing-banner-bg.png") no-repeat scroll left top / 100% 100%;
+    padding: 20px 0 450px;
+    margin-bottom: -230px;
+    
+    
+    
+    .reboot-banner-text {
+        
+        max-width: 770px;
+        margin: 95px auto 0;
+        
+        
+        h3 {
+            margin: 0 0 25px;
+        }
+        
+        h2 {
+            margin: 0 0 35px;
+        }
+        
+    }
+}

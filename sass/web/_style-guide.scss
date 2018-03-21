@@ -1,0 +1,257 @@
+.style-guide-header {
+	width:100%;
+	height:240px;
+	background:$gray-darker;
+	
+		.container {
+			padding-top:130px;
+			
+			.style-logo {
+				padding-left:0px;	
+			}
+		}
+	
+}
+
+.style-title {
+	color:$brand-primary;
+	font-size:40px;
+	margin-bottom:20px;
+	display:block;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:'bebas_neuebold';
+}
+
+
+.typography {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:60px 0;
+	
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-top:30px;
+			margin-bottom:10px;
+			display:block;
+		}
+		
+		table {
+			width:100%;
+			margin-bottom:50px;			
+		}
+		
+		.jambo-style {
+			margin-bottom:78px;
+		}
+		
+		.p-block {
+			width:90%;
+			display:block;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+}
+
+
+.colors {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:0 0 60px 0;
+	
+		.brand-color-box {
+			float:left;
+			margin-bottom:17px;
+			margin-top:17px;
+			
+			div {
+				display: table-cell;
+				height: 70px;
+				text-align: center;
+				vertical-align: middle;
+				width: 170px;
+				border-radius:3px;
+				margin-bottom:15px;
+				font-weight:normal;
+				font-family:'ProximaNova-Light';
+			}
+		}
+		
+		.brand-primary {
+			background:$brand-primary;
+			color:$primary-color;
+		}
+		
+		.brand-success {
+			background:$brand-success;
+			color:$primary-color;
+		}
+		
+		.brand-info {
+			background:$brand-info;
+			color:$primary-color;
+		}
+		
+		.brand-warning {
+			background:$brand-warning;
+			color:$primary-color;
+		}
+				
+		.brand-danger {
+			background:$brand-danger;
+			color:$primary-color;
+		}
+				
+		.gray-darker {
+			background:$gray-darker;
+			color:$primary-color;
+		}
+				
+		.gray-dark {
+			background:$gray-dark;
+			color:$primary-color;
+		}
+				
+		.gray {
+			background:$gray;
+			color:$primary-color;
+		}
+				
+		.gray-light {
+			background:$gray-light;
+			color:$gray;
+		}
+				
+		.gray-lighter {
+			background:$gray-lighter;
+			color:$gray;
+		}
+		
+		
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-top:10px;
+			margin-bottom:10px;
+			width:170px;
+			text-align:center;
+			display:block;
+		}
+	
+
+
+}
+
+
+
+.buttons {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:0 0 30px 0;
+	
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-top:25px;
+			margin-bottom:10px;
+			width:100%;
+			display:block;
+		}
+	
+	
+}
+
+.toolbar-link-body {
+	width:100%;
+	float:left;
+	display:block;
+	margin-bottom:60px;
+	
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-bottom:15px;
+			width:100%;
+			display:block;
+		}
+	
+		.toolbar-link {
+			display:block;
+		}
+	
+}
+
+
+.cards {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:0 0 60px 0;
+	
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-top:25px;
+			margin-bottom:10px;
+			width:100%;
+			display:block;
+		}
+		
+		.card {
+			width:270px;
+			height:135px;
+		}
+	
+	
+}
+
+
+
+
+.forms {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:0 0 60px 0;
+	
+		.sample-text {
+			color:$gray;
+			font-size:12px;
+			margin-top:25px;
+			margin-bottom:10px;
+			width:100%;
+			display:block;
+		}
+		
+		.form-input {			
+			font-size:			15px;
+			font-color:			$gray-darker;
+			font-weight:		normal;
+			font-family:		'ProximaNova-Regular';
+		}
+	
+	
+}
+
+
+
+.modals {
+	width:100%;
+	background:$primary-color;
+	float:left;
+	padding:60px 0;
+	
+		.modal-dialog { 
+			margin-left:0px;
+		}
+		
+	
+}
+
+
+
+

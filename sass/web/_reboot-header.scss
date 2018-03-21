@@ -1,0 +1,147 @@
+.reboot-header {
+    background: #fff url("../../images/reboot-landing-banner-bg.png") no-repeat scroll left top / 100% 100%;
+    .reboot-top-menu {
+        padding: 12px 0;
+
+        small {
+            font-family: "ProximaNova-Regular";
+            a {
+                
+                font-family: "ProximaNova-Regular";
+            }
+        }
+        
+        .language-sidemenu {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+            li {
+                margin-right: 30px;
+                display: inline-block;
+                opacity: 0.7;
+                a {
+                    text-decoration: none;
+                    font-family: "ProximaNova-Regular";
+                    small {
+                        font-family: "ProximaNova-Regular";
+                    }
+                }
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+            li:hover {
+                opacity: 1;
+            }
+        }
+    }
+    /*--End of reboot-top-menu--*/
+    .reboot-main-menu {
+        padding: 10px 0 12px;
+        /*position: absolute;
+        top:45px;
+        left:0;
+        width:100%;*/
+
+
+        .logo-nav {
+            a {
+                img {
+                    max-width: 126px;
+                }
+            }
+            a.img-color {
+                display: none;
+            }
+        }
+        
+        .right-cart-menu {
+            margin: 11px 0 0;
+            padding: 0;
+            list-style: none;
+            
+            
+            li {
+                
+                display: inline-block;
+                margin-left: 30px;
+                
+                a {
+                    display: inline-block;
+                    
+                    img {
+                        max-width: 21px;
+                    }
+                }
+            }
+            
+            li:first-child {
+                margin-left: 0;
+            }
+            
+            li.cart-menu-right {
+                position: relative;
+                .cart-has-product:after {
+                    color: #01aedd;
+                    content: "\f111";
+                    font-family: "Fontawesome";
+                    font-size: 10px;
+                    position: absolute;
+                    right: -12px;
+                    top: -5px;
+                }
+            }
+        }
+    }
+    /*--End of reboot-main-menu--*/
+    
+    
+}
+
+
+.reboot-header .reboot-menu-wrap {
+    position: absolute;
+    left: 0;
+    top:45px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.reboot-header .reboot-menu-wrap.reboot-header-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background: $gray-darker;
+    z-index: 999;
+    
+    .logo-nav {
+        a.img-dark {
+            display: none;
+        }
+        a.img-color {
+            display: block;;
+        }
+    }
+}
+/*--End of reboot-header-sticky--*/
+
+
+
+.reboot-header.reboot-choose-kit-header {
+    background: $gray-darker;
+    .reboot-main-menu {
+        background: $gray-darker;
+    }
+}
+
+
+.reboot-header .reboot-menu-wrap.reboot-header-sticky .reboot-mobile-navigation {
+    position: fixed;
+}
+
+.reboot-header .reboot-menu-wrap.reboot-header-sticky .reboot-partner-nav {
+    position: fixed;
+}

@@ -1,0 +1,814 @@
+
+
+
+@media (min-width:1370px) {
+    .reboot-reset-wrap {
+        background-size: contain;
+    }
+
+    .reboot-product-box-wrap {
+        padding-top: 260px;
+    }
+}
+/*====--End of Media 1370px--====*/
+
+
+
+@media (min-width:1380px) and (max-width:1540px) {
+    .reboot-reset-wrap {
+        background-size: 800px auto;
+    }
+}
+/*====--End of Media 1380px--====*/
+
+
+
+@media (min-width:768px) and (max-width:1200px) {
+    
+    
+    .reboot-choose-kit-wrap .reboot-choose-content .choose-kit-item h2 {
+        font-size: 34px;
+    }
+    
+    .reboot-reset-wrap {
+        background-size: 600px auto;
+    }
+    
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam-details {
+            .product-details-info-content {
+                .reboot-suppliment-fat {
+                    .suppliment-fat-top {
+                        .reboot-keto-flavor {
+                            max-width: 175px;
+                            .flavor-select {
+                                max-width: 190px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+/*====--End of Media 768px to 1140px--====*/
+
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+    
+   
+	
+    .reboot-60hour-wrap {
+        background-size: cover;
+        padding-bottom: 250px;
+        margin-bottom: 100px;
+    }
+
+
+}
+/*====--End of Media 768px to 1024px--====*/
+
+
+
+
+
+@media (max-width:991px) {	
+	
+	
+    
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam-details {
+            .product-details-info-content {
+                
+                .reboot-suppliment-fat {
+                    .suppliment-fat-top {
+                        
+                        .suppliment-text  {
+                            float: left;
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 15px;
+                            .suppliment-fat-title {
+                                font-size: 20px;
+                            }
+                        }
+                        .reboot-keto-flavor {
+                            
+                            float: left !important;
+                            width: 100%;
+                            display: block;
+                            margin-bottom: 15px;
+                            
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+	
+}
+/*====--End of Media max-width:991px--====*/
+
+
+@media (min-width:768px) and (max-width:991px) {
+		
+	article.container {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	/*====--End of container css--====*/
+	
+    
+    .reboot-community-support-wrap {
+        .reboot-community-right {
+            .reboot-community-support {
+                .facebook {
+        
+                    .facebook-icon {
+                        width: 20%;
+                    }
+                    .facebook-text {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam-details {
+            .product-details-info-content {
+                .reboot-suppliment-fat {
+                    .suppliment-fat-top {
+                        .suppliment-text .suppliment-fat-title {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*====--End of Media-iPad --====*/
+
+
+@media (min-width:768px) {
+	
+	.reboot-top-menu,
+	.reboot-main-menu {
+		display: block;
+	}
+	
+	.reboot-mobile-menu {
+		display: none;
+	}
+
+    .mb-show {
+      display: none !important;
+    }
+    
+    
+}
+/*====--End of min-width:768px--====*/
+
+
+
+@media (max-width:767px) {
+	
+	article.container {
+		padding-left:15px;
+		padding-right:15px;
+	}	
+	/*====--End of container css--====*/
+
+
+    .mb-hide {
+      display: none !important;
+    }
+
+    .mb-show {
+      display: block !important;
+    }
+
+    .reboot-mobile-navigation {
+      position: absolute;
+      top: 0;
+      z-index: 999;
+      background: $gray-darker;
+      min-height: 55px;
+      padding: 12px 0;
+
+      .setting-left {
+        float: left;
+        position: relative;
+        z-index: 100;
+        margin-left: 20px;
+        img {
+          max-width: 21px;
+          margin-top: 5px;
+        }
+      }
+
+      .logo-center {
+        left: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+
+        a {
+          display: inline-block;
+          img {
+            max-width: 90px;
+          }
+        }
+      }
+
+        .cart-menu {
+            position: absolute;
+            right: 15px;
+
+            a {
+                display: block;
+                position: relative;
+
+                img {
+                    max-width: 21px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        
+        .cart-has-product:after {
+            color: #01aedd;
+            content: "\f111";
+            font-family: "Fontawesome";
+            font-size: 10px;
+            position: absolute;
+            right: -12px;
+            top: -5px;
+            
+        }
+
+    }
+    /*====--End of reboot-mobile-navigation--====*/
+
+    .reboot-partner-nav {
+      position: absolute;
+      z-index: 999;
+      top: 55px;
+      background: rgba(51,51,51,0.5);
+      padding: 5px 0 10px;
+
+      small {
+        color: rgba(255,255,255, 0.7);
+      }
+
+      small:hover {
+        a {
+          color: $primary-color;
+        }
+      }
+
+    }
+    /*====--End of reboot-partner-nav--====*/
+    
+    
+    .reboot-header {
+        .reboot-menu-wrap.reboot-header-sticky {
+            .reboot-partner-nav {
+                background: rgba(147, 94, 255, 1);
+            }
+        }
+    }
+    
+    
+
+
+    .reboot-landing-banner .reboot-banner-text {
+      margin: 95px auto 0;
+    }
+
+	
+	.reboot-footer {
+		 .footer-top {
+			 padding-bottom:15px;
+			 
+		 	.footer-top-panel {
+				.footer-back-top {
+					float: right;
+					width: 100%;
+					
+					.back-btn {
+						float: initial;
+						max-width: 90px;
+						margin: 0 auto;
+					}
+				}
+			}
+		}		
+		/*====--End of footer-top--====*/		
+		
+		.footer-bottom {
+			padding-top:15px;
+			
+			.footer-bottom-panel {
+				.footer-bottom-left {
+					margin-bottom: 20px;
+    				text-align: center;
+					
+					img {
+						margin: 0 auto;
+					}
+				}
+				
+				.footer-bottom-right {
+					text-align:center;
+				}
+				
+			}
+		}		
+		/*====--End of footer-bottom--====*/
+	}		
+	/*====--End of reboot-footer--====*/
+    
+    
+    .reboot-choose-kit-wrap  { 
+        background-size: cover;
+        padding: 140px 0 80px;
+    }
+    
+    .reboot-footer {
+       .footer-top {
+           .footer-top-panel {
+               .col-sm-2 {
+                   width: 50%;
+                   float: left;
+               }
+           }
+       }
+   }
+   
+   .reboot-footer {
+       .footer-top {
+           .footer-top-panel {
+               .col-sm-2.footer-back-top {
+                   width: 100%;
+               }
+           }
+       }
+   }
+    
+    .reboot-footer {
+        .footer-top {
+            .footer-top-panel {
+                .footer-back-top {
+                    .back-btn {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .reboot-header {
+        background-size: cover;
+    }
+    
+    
+    .reboot-reset-wrap  {
+        background: none;
+        padding-bottom: 0;
+    }
+    
+    .reboot-reset-wrap .reboot-reset-img.mbShow {
+        display: block;
+    }
+    
+    .reboot-reset-wrap .reboot-reset-text h2,
+    .reboot-reset-wrap .reboot-reset-text h5 {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .reboot-60hour-wrap {
+        margin-top: -200px;
+        background: url(../../images/aDay-in-bg-mb.png) no-repeat scroll top left/cover;
+        /*background-size: cover;*/
+        padding-top: 400px;
+        
+        .reboot-60hour-left {
+            margin-bottom: 50px;
+            
+            .reboot-Ketophagy {
+                text-align: center;
+                margin-bottom: 30px; 
+                
+                
+                .Ketophagy {
+                    max-width: 100px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            .natural {
+                text-align: center;
+                max-width: 100%;
+            }
+        }
+    }
+    
+    .reboot-community-support-wrap {
+        .reboot-community-right {
+            .reboot-community-support {
+                padding-top: 47px;
+                
+                
+                
+                .community-title {
+                    text-align: center;
+                }
+                
+                .community-details {
+                    max-width: 100%;
+                    text-align: center;
+                }
+                
+                .facebook {
+                    max-width: 400px;
+                    margin: 0 auto;
+                    
+                    .facebook-icon {
+                        width: 20%;
+                    }
+                    
+                    .facebook-text {
+                        width: 80%;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .reboot-product-box-wrap {
+        background:url(../../images/dna-bg.png) no-repeat scroll top center/cover;
+        padding-top: 150px;
+        padding-bottom: 40px;
+
+        .product-box-content {
+          .product-box {
+            padding: 0 20px;
+          }
+        }
+    }
+    
+    
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam-details {
+            .product-details-info-content {
+                .product-details-info {
+                    margin: 0 auto 40px;
+                    max-width: 100%;
+                }
+                
+                .reboot-suppliment-fat {
+                    .suppliment-fat-top {
+                        
+                        .suppliment-text  {
+                            float: left;
+                            display: block;
+                            width: 100%;
+                            margin-bottom: 15px;
+                            .suppliment-fat-title {
+                                font-size: 20px;
+                            }
+                        }
+                        .reboot-keto-flavor {
+                            
+                            float: left !important;
+                            width: 100%;
+                            display: block;
+                            margin-bottom: 15px;
+                            
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
+    .reboot-arebooter-life-wrap {
+        background-size: cover;
+        margin-top: -120px;
+        padding-top: 250px;
+        
+        .reboot-arebooter-right {
+            .reboot-arebooter-life {
+                h2   {
+                    text-align: center;
+                }
+                
+                h5 {
+                    max-width: 100%;
+                    text-align: center;
+                }
+                
+                .rebooter {
+                    max-width: 300px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    
+    .will-you-reboot-content-wrap {
+        .will-you-reboot-content {
+            .will-you-reboot-left {
+                margin-top: 0;
+            }
+            
+            .will-you-reboot {
+                h2 {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+    .reboot-frequently-askd {
+      padding-bottom: 50px;
+      .panel-default {
+        margin-left:-20px;
+        margin-right:-20px;
+        .panel-heading {
+          .panel-title {
+            padding-right:0;
+          }
+        }
+        .panel-collapse{
+          p {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+	
+    
+    
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam {
+            .reboot-iteam-slider-nav {
+                .product-single-iteam {
+                    min-height: 240px;
+                    .product-name {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .reboot-header {
+        .reboot-menu-wrap {
+            top: 0;
+        }
+    }
+    
+    
+		
+	
+	
+}
+/*====--End of Media_767px--====*/
+
+
+
+@media (max-width:640px) {
+
+    .jumbo1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+	
+	
+	.reboot-footer .footer-top .footer-top-panel .footer-company,
+	.reboot-footer .footer-top .footer-top-panel .footer-follow,
+	.reboot-footer .footer-top .footer-top-panel .footer-account {
+		padding-left: 0;
+	}
+	
+	.reboot-footer .footer-top .footer-top-panel .footer-contact, 
+	.reboot-footer .footer-top .footer-top-panel .footer-company, 
+	.reboot-footer .footer-top .footer-top-panel .footer-follow, 
+	.reboot-footer .footer-top .footer-top-panel .footer-account {
+		margin-bottom:20px;
+	}
+    
+    
+  .reboot-60hour-wrap .reboot-60hour-right .reboot-60hour-icon-item h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+    
+	
+}
+/*====--End of Media_640px--====*/
+
+
+@media (max-width:440px) {
+
+  .reboot-community-support-wrap .reboot-community-right .reboot-community-support .community-title {
+    line-height: 40px;
+  }
+
+}
+/*====--End of Media_440px--====*/
+
+
+@media (max-width:380px) {
+	
+    .reboot-product-iteam-wrap {
+        .reboot-product-iteam-details {
+            .product-details-info-content {
+                .reboot-suppliment-fat {
+                    .suppliment-fat-top {
+                        .suppliment-text {
+                            .suppliment-fat-title {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+/*====--End of Media_340px to Media_640px--====*/
+
+
+@media (min-width:340px) and (max-width:640px) {
+	
+	.reboot-footer .footer-top .footer-top-panel .footer-contact, 
+	.reboot-footer .footer-top .footer-top-panel .footer-company, 
+	.reboot-footer .footer-top .footer-top-panel .footer-follow, 
+	.reboot-footer .footer-top .footer-top-panel .footer-account {
+		width:50%;
+		float:left;
+	}
+	
+
+}
+/*====--End of Media_340px to Media_640px--====*/
+
+
+
+
+
+
+@media (max-width:460px) {
+
+	
+	
+}
+/*====--End of Media_460px--====*/
+
+
+@media (max-width:420px) {
+	
+	
+    .reboot-header {
+        .reboot-top-menu {
+            small {
+                font-size: 10px;
+            }
+            
+            .language-sidemenu {
+                
+                li {
+                    margin-right: 15px;
+                }
+            }
+        }
+        
+        .reboot-main-menu {
+            .right-cart-menu {
+                li {
+                    margin-left: 20px;
+                    a {
+                        img {
+                            max-width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .reboot-choose-kit-wrap {
+        .reboot-choose-content {
+            .choose-kit-title {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    
+    .reboot-teame-warp {
+        .reboot-statement.bottom-more-margin {
+            margin-bottom: 60px;
+        }
+        
+        hr.hr  {
+            margin-bottom: 40px;
+        }
+    }
+    
+    .reboot-frequently-askd.reboot-questions-answered {
+        padding-bottom: 0;
+    }
+    
+    .reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap {
+        padding-bottom: 50px;
+    }
+    
+    
+	
+	
+}
+/*====--End of Media_420px--====*/
+
+
+
+@media (max-width:400px) {
+	
+	
+	
+	
+	
+}
+/*====--End of Media_400px--====*/
+
+
+
+@media (max-width:340px) {
+	
+	
+    
+	
+}
+/*====--End of Media_340px--====*/
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    
+    
+    .reboot-community-support-wrap  .reboot-community-left .reboot-community-video .play-icon ,
+    .reboot-landing-banner .reboot-banner-bottom  .reboot-banner-video  .play-icon,
+    .reboot-arebooter-life-wrap .reboot-arebooter-left .reboot-arebooter-video .play-icon {
+        top: 42%;
+    }
+    
+    
+    
+    
+    
+    @media (max-width: 440px) {
+        .reboot-community-support-wrap  .reboot-community-left .reboot-community-video .play-icon ,
+        .reboot-landing-banner .reboot-banner-bottom  .reboot-banner-video  .play-icon,
+        .reboot-arebooter-life-wrap .reboot-arebooter-left .reboot-arebooter-video .play-icon {
+            top: 31%;
+        }
+    }
+    
+    
+    
+} 
+
+
+
+
+
+@media (max-width: 767px) {
+    .reboot-product-body-banner {
+        background-size: cover;
+        padding: 20px 0 200px;
+        margin-bottom: -150px;
+        
+        .reboot-banner-text {
+            margin-top: 25px;
+        }
+    }
+}

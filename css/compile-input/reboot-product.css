@@ -1,0 +1,527 @@
+
+
+
+
+
+.reboot-product-body-banner {
+    background: #fff url("../../images/reboot-landing-banner-bg.png") no-repeat scroll left top/100% 100%;
+    padding: 20px 0 450px;
+    margin-bottom: -230px;
+}
+
+.reboot-product-body-banner .reboot-banner-text {
+    max-width: 770px;
+    margin: 95px auto 0;
+}
+
+.reboot-product-body-banner .reboot-banner-text h3 {
+    margin: 0 0 25px;
+}
+
+.reboot-product-body-banner .reboot-banner-text h2 {
+    margin: 0 0 35px;
+}
+
+
+/*-- End of reboot-product-body-banner --*/
+
+.reboot-reset-wrap {
+    background: url(../../images/img-runner-male.png) no-repeat scroll top left/800px auto;
+    padding-bottom: 175px;
+}
+
+.reboot-reset-wrap .reboot-reset-img.mbShow {
+    display: none;
+}
+
+.reboot-reset-wrap .reboot-reset-text h2 {
+    margin-bottom: 30px;
+    margin-top: 60px;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+/*--End of reboot-reset-wrap --*/
+
+.reboot-60hour-wrap {
+    background: url(../../images/60hour-keto-bg.png) no-repeat scroll top left/100% 100%;
+    padding: 220px 0 350px;
+    margin-top: -100px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left {
+    margin-top: 168px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy h6 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy h6.Ketophagy {
+    position: relative;
+    font-weight: 900;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy h6.Ketophagy:before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: 0;
+    background: #935eff;
+    width: 34px;
+    height: 2px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy p {
+    margin-top: 10px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-left .natural {
+    max-width: 230px;
+    width: 100%;
+}
+
+.reboot-60hour-wrap .reboot-60hour-right .reboot-60hour-icon-item .reboot-60hour-icon {
+    max-width: 66px;
+    width: 100%;
+    margin: 0 auto 18px;
+}
+
+.reboot-60hour-wrap .reboot-60hour-right .reboot-60hour-icon-item .reboot-60hour-icon img {
+    display: inline-block;
+}
+
+.reboot-60hour-wrap .reboot-60hour-right .reboot-60hour-icon-item h2 {
+    margin-bottom: 55px;
+}
+
+
+/*--End of reboot-60hour-wrap --*/
+
+.reboot-product-box-wrap {
+    background: url(../../images/dna-bg.png) no-repeat scroll top left/100% auto;
+    margin-top: -190px;
+    padding-top: 230px;
+}
+
+.reboot-product-box-wrap .product-box-content .product-box {
+    margin-bottom: 42px;
+}
+
+.reboot-product-box-wrap .product-box-content .product-box img {
+    display: inline-block;
+    max-width: 1005px;
+    width: 100%;
+}
+
+.reboot-product-box-wrap .product-box-content h2 {
+    margin-bottom: 30px;
+}
+
+.reboot-product-box-wrap .product-box-content h5 {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto 73px;
+}
+
+
+/*--End of reboot-product-box-wrap --*/
+
+.reboot-product-iteam-wrap .slick-track-first {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article {
+    padding: 0;
+    background: white;
+    background: -moz-linear-gradient(top, white 0%, #fdfdfd 38%, #ededed 100%);
+    background: -webkit-linear-gradient(top, white 0%, #fdfdfd 38%, #ededed 100%);
+    background: linear-gradient(to bottom, white 0%, #fdfdfd 38%, #ededed 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav {
+    margin-bottom: 0 !important;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav .product-single-iteam {
+    margin: 0;
+    padding: 0px 20px 20px;
+    min-height: 235px;
+    cursor: pointer;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav .product-single-iteam .product-img {
+    margin-bottom: 17px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav .product-single-iteam .product-img img {
+    display: inline-block;
+    max-width: 75px;
+    width: 100%;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav .product-single-iteam .product-name {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam article .reboot-iteam-slider-nav .product-single-iteam .product-count {
+    margin-bottom: 5px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam .product-single-iteam:focus {
+    outline: none;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam .product-single-iteam.slick-current {
+    background: #fff;
+    opacity: 1;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam .product-single-iteam.slick-current .brand-purple {
+    color: #333333;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam .product-single-iteam.slick-current .pro-details-link {
+    display: none;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content {
+    margin-top: 85px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info {
+    max-width: 400px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info h5 {
+    margin-bottom: 28px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info .product-info-img {
+    margin-bottom: 42px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info .product-info-img img {
+    display: inline;
+    max-width: 95px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info .product-info-img img:last-child {
+    margin-right: 0;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info p {
+    margin-bottom: 10px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text .suppliment-fat-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor {
+    max-width: 265px;
+    width: 100%;
+    height: 30px;
+    background: #f7f7f7;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor .flavor-select {
+    font-size: 14px;
+    padding: 0 7px;
+    width: 285px;
+    height: 100%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../../images/select-bg.png) no-repeat scroll right 30px center/9px auto;
+    cursor: pointer;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .serving-size {
+    margin-bottom: 7px;
+    font-family: "ProximaNova-Regular";
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .suppliment-fat-details {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .margin-bottom {
+    margin-bottom: 20px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table {
+    margin-bottom: 0;
+    border-bottom: 8px solid #333333;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr th {
+    padding: 3px 0;
+    font-size: 12px;
+    font-family: "ProximaNova-Regular";
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr th.border-large,
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td.border-large {
+    border-top: 14px solid #333333;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td {
+    border-top: 1px solid #333333;
+    padding: 4px 0;
+    font-family: "ProximaNova-Regular";
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td .table {
+    margin-bottom: 0;
+    border: none;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td .table tr td {
+    padding-left: 19px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td .table tr td .table {
+    border: none;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td .table tr td .table tr td {
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td.border-medium {
+    border-top: 8px solid #333333;
+}
+
+.reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-table-content .table.suppliment-fat-table tr td.border-none {
+    border-top: none;
+}
+
+
+/*--End of reboot-product-iteam-wrap --*/
+
+.reboot-disclaimer-wrap {
+    padding: 57px 0;
+}
+
+.reboot-disclaimer-wrap .reboot-disclaimer-content .disclaimer-title {
+    margin: 0 auto 25px;
+    max-width: 602px;
+    width: 100%;
+    line-height: 18px;
+    font-weight: 700;
+    border: 3px solid #333333;
+    padding: 4px 0;
+}
+
+.reboot-disclaimer-wrap .reboot-disclaimer-content .disclaimer-details {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto 10px;
+}
+
+
+/*--End of reboot-disclaimer-wrap --*/
+
+.reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap {
+    padding-bottom: 95px;
+}
+
+
+/*--End of reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap --*/
+
+@media (min-width: 1370px) {
+    .reboot-reset-wrap {
+        background-size: contain;
+    }
+    .reboot-product-box-wrap {
+        padding-top: 260px;
+    }
+}
+
+
+/*====--End of Media 1370px--====*/
+
+@media (min-width: 1380px) and (max-width: 1540px) {
+    .reboot-reset-wrap {
+        background-size: 800px auto;
+    }
+}
+
+
+/*====--End of Media 1380px--====*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .reboot-reset-wrap {
+        background-size: 600px auto;
+    }
+    .reboot-60hour-wrap {
+        background-size: cover;
+        padding-bottom: 250px;
+        margin-bottom: 100px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor {
+        max-width: 175px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor .flavor-select {
+        max-width: 190px;
+    }
+}
+
+
+/*====--End of @media (min-width: 768px) and (max-width: 1200px)--====*/
+
+@media (max-width: 991px) {
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text {
+        float: left;
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text .suppliment-fat-title {
+        font-size: 20px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor {
+        float: left !important;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*====--End of Media max-width:991px--====*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text .suppliment-fat-title {
+        font-size: 20px;
+    }
+}
+
+
+/*====--End of Media-iPad --====*/
+
+@media (max-width: 767px) {
+    .reboot-product-body-banner {
+        background-size: cover;
+        padding: 20px 0 200px;
+        margin-bottom: -150px;
+    }
+    .reboot-product-body-banner .reboot-banner-text {
+        margin-top: 25px;
+    }
+    .reboot-reset-wrap {
+        background: none;
+        padding-bottom: 0;
+    }
+    .reboot-reset-wrap .reboot-reset-img.mbShow {
+        display: block;
+    }
+    .reboot-reset-wrap .reboot-reset-text h2,
+    .reboot-reset-wrap .reboot-reset-text h5 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .reboot-60hour-wrap {
+        margin-top: -200px;
+        background: url(../../images/aDay-in-bg-mb.png) no-repeat scroll top left/cover;
+        /*background-size: cover;*/
+        padding-top: 400px;
+    }
+    .reboot-60hour-wrap .reboot-60hour-left {
+        margin-bottom: 50px;
+    }
+    .reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .reboot-60hour-wrap .reboot-60hour-left .reboot-Ketophagy .Ketophagy {
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .reboot-60hour-wrap .reboot-60hour-left .natural {
+        text-align: center;
+        max-width: 100%;
+    }
+    .reboot-product-box-wrap {
+        background: url(../../images/dna-bg.png) no-repeat scroll top center/cover;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .reboot-product-box-wrap .product-box-content .product-box {
+        padding: 0 20px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .product-details-info {
+        margin: 0 auto 40px;
+        max-width: 100%;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text {
+        float: left;
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text .suppliment-fat-title {
+        font-size: 20px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .reboot-keto-flavor {
+        float: left !important;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam .reboot-iteam-slider-nav .product-single-iteam {
+        min-height: 240px;
+    }
+    .reboot-product-iteam-wrap .reboot-product-iteam .reboot-iteam-slider-nav .product-single-iteam .product-name {
+        font-size: 18px;
+    }
+}
+
+
+/*-- End of @media (max-width: 767px) --*/
+
+@media (max-width: 640px) {
+    .reboot-60hour-wrap .reboot-60hour-right .reboot-60hour-icon-item h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+
+/*-- End of @media (max-width: 640px) --*/
+
+@media (max-width: 420px) {
+    .reboot-disclaimer-wrap.reboot-choose-disclaimer-wrap {
+        padding-bottom: 50px;
+    }
+}
+
+
+/*====--End of @media (max-width: 420px) --====*/
+
+@media (max-width: 380px) {
+    .reboot-product-iteam-wrap .reboot-product-iteam-details .product-details-info-content .reboot-suppliment-fat .suppliment-fat-top .suppliment-text .suppliment-fat-title {
+        font-size: 20px;
+    }
+}
+
+
+/*====--End of @media (max-width: 380px) --====*/
